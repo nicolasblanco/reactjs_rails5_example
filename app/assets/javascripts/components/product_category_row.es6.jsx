@@ -1,5 +1,3 @@
-class ProductCategoryRow extends React.Component {
-  render () {
-    return (<tr><th colSpan="2">{ this.props.category }</th></tr>);
-  }
+const ProductCategoryRow = ({ category }) => {
+    return (<tr><th colSpan="2">{ category }</th></tr>);
 }
